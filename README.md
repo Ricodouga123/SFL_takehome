@@ -42,4 +42,4 @@ The venv prefix indicates that you have entered python venv. To install all the 
 pip install -r requirements.txt
 ```
 
-After installing the required dependencies you should be able to run scripts in this repo with no probelm. Note that you will still need to configure authentication info in the instance folder.
+After installing the required dependencies you should be able to run scripts in this repo.
