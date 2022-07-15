@@ -16,8 +16,6 @@ For a quick check of the result generated, run scratch.py for diplaying all user
 
 ## Python Virtual Environment
 
-### Python Virtual Environment
-
 Python has a built-in virtual environment(venv) that this repo supports. To get started with venv, while at the repo's directory, run
 ```
 python -m venv venv
@@ -43,3 +41,7 @@ pip install -r requirements.txt
 ```
 
 After installing the required dependencies you should be able to run scripts in this repo.
+
+## Walkthrough
+
+For a complete walkthrough of the process, checkout test branch and its readme.md
