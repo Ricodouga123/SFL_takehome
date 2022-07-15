@@ -16,8 +16,6 @@ For a quick check of the result generated, run scratch.py for diplaying all user
 
 ## Python Virtual Environment
 
-### Python Virtual Environment
-
 Python has a built-in virtual environment(venv) that this repo supports. To get started with venv, while at the repo's directory, run
 ```
 python -m venv venv
@@ -43,3 +41,32 @@ pip install -r requirements.txt
 ```
 
 After installing the required dependencies you should be able to run scripts in this repo.
+
+## Walkthrough
+
+At the command line while at the repo's directory, enter
+
+```
+$sqlite3 sfl_db.db 
+```
+and at the sqlite3 prompt, enter
+
+```
+$.databases
+```
+
+which will initialize a sqlite .db file for us to get started.
+
+At the python venv, or if you have all dependencies installed, enter
+
+```
+$python db_init.py
+```
+
+and 
+
+```
+$python populate_data.py
+```
+
+and our db is ready to go. For a quick check of result, see Check in readme
